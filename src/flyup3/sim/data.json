@@ -1,0 +1,610 @@
+{
+  "customers": [
+    {
+      "id": "Medivia",
+      "product": "Pharma",
+      "ton": 1150,
+      "yld": 3.1,
+      "sow": 60,
+      "comp": 25,
+      "st": 14,
+      "vol": 6,
+      "prod": 2,
+      "cmpl": 3,
+      "dig": 80,
+      "ns": 4,
+      "allot": 92,
+      "pay": 2,
+      "csat": 82,
+      "nps": 20,
+      "vp": 6,
+      "vd": 6,
+      "contract": 1,
+      "days": 270,
+      "q4": 30,
+      "rev": 3565000,
+      "market": 1916.6666666666667,
+      "gap": 766.6666666666667
+    },
+    {
+      "id": "Nord",
+      "product": "Genel",
+      "ton": 3400,
+      "yld": 1.05,
+      "sow": 22,
+      "comp": 45,
+      "st": 40,
+      "vol": -18,
+      "prod": 3,
+      "cmpl": 7,
+      "dig": 60,
+      "ns": 12,
+      "allot": 70,
+      "pay": 10,
+      "csat": 61,
+      "nps": -15,
+      "vp": 6,
+      "vd": 2,
+      "contract": 1,
+      "days": 45,
+      "q4": 27,
+      "rev": 3570000,
+      "market": 15454.545454545454,
+      "gap": 12054.545454545454
+    },
+    {
+      "id": "Bella",
+      "product": "Valuable",
+      "ton": 420,
+      "yld": 2.9,
+      "sow": 40,
+      "comp": 35,
+      "st": 3,
+      "vol": 22,
+      "prod": 1,
+      "cmpl": 1,
+      "dig": 90,
+      "ns": 3,
+      "allot": null,
+      "pay": 0,
+      "csat": 88,
+      "nps": 40,
+      "vp": 4,
+      "vd": 3,
+      "contract": 1,
+      "days": 180,
+      "q4": 30,
+      "rev": 1218000,
+      "market": 1050,
+      "gap": 630
+    },
+    {
+      "id": "Veloce",
+      "product": "Courier",
+      "ton": 380,
+      "yld": 2.1,
+      "sow": 85,
+      "comp": 10,
+      "st": 2,
+      "vol": 60,
+      "prod": 1,
+      "cmpl": 2,
+      "dig": 100,
+      "ns": 6,
+      "allot": null,
+      "pay": 5,
+      "csat": 84,
+      "nps": 45,
+      "vp": 2,
+      "vd": 1,
+      "contract": 0,
+      "days": null,
+      "q4": 45,
+      "rev": 798000,
+      "market": 447.05882352941177,
+      "gap": 67.05882352941177
+    },
+    {
+      "id": "Lago",
+      "product": "Fresh",
+      "ton": 900,
+      "yld": 1.8,
+      "sow": 50,
+      "comp": 30,
+      "st": 4,
+      "vol": 2,
+      "prod": 1,
+      "cmpl": 1,
+      "dig": 30,
+      "ns": 22,
+      "allot": 55,
+      "pay": 48,
+      "csat": 75,
+      "nps": 5,
+      "vp": 4,
+      "vd": 4,
+      "contract": 1,
+      "days": 120,
+      "q4": 35,
+      "rev": 1620000,
+      "market": 1800,
+      "gap": 900
+    },
+    {
+      "id": "Rossi",
+      "product": "Genel",
+      "ton": 300,
+      "yld": 1.35,
+      "sow": 90,
+      "comp": 5,
+      "st": 1,
+      "vol": 0,
+      "prod": 1,
+      "cmpl": 0,
+      "dig": 10,
+      "ns": 2,
+      "allot": null,
+      "pay": 0,
+      "csat": 90,
+      "nps": 50,
+      "vp": 2,
+      "vd": 2,
+      "contract": 1,
+      "days": 300,
+      "q4": 25,
+      "rev": 405000,
+      "market": 333.3333333333333,
+      "gap": 33.333333333333314
+    }
+  ],
+  "flags": {
+    "Medivia": {
+      "offload": 0,
+      "rival": 1,
+      "dm": 0
+    },
+    "Nord": {
+      "offload": 2,
+      "rival": 1,
+      "dm": 1
+    },
+    "Bella": {
+      "offload": 0,
+      "rival": 0,
+      "dm": 0
+    },
+    "Veloce": {
+      "offload": 0,
+      "rival": 1,
+      "dm": 0
+    },
+    "Lago": {
+      "offload": 0,
+      "rival": 0,
+      "dm": 0
+    },
+    "Rossi": {
+      "offload": 0,
+      "rival": 0,
+      "dm": 1
+    }
+  },
+  "uncertainty": {
+    "Medivia": {
+      "kusak": 0,
+      "karar": 0,
+      "kisa": 0
+    },
+    "Nord": {
+      "kusak": 0,
+      "karar": 1,
+      "kisa": 0
+    },
+    "Bella": {
+      "kusak": 0,
+      "karar": 0,
+      "kisa": 0
+    },
+    "Veloce": {
+      "kusak": 0,
+      "karar": 0,
+      "kisa": 1
+    },
+    "Lago": {
+      "kusak": 0,
+      "karar": 0,
+      "kisa": 0
+    },
+    "Rossi": {
+      "kusak": 1,
+      "karar": 0,
+      "kisa": 0
+    }
+  },
+  "indicators": [
+    {
+      "dim": "deger",
+      "name": "Yıllık gelir (M USD)",
+      "w": 25,
+      "up": true,
+      "th": [
+        3,
+        1.5,
+        1,
+        0.5
+      ]
+    },
+    {
+      "dim": "deger",
+      "name": "Birim gelir (USD/kg)",
+      "w": 10,
+      "up": true,
+      "th": [
+        3,
+        2.5,
+        2,
+        1.5
+      ]
+    },
+    {
+      "dim": "iliski",
+      "name": "Share of wallet (%)",
+      "w": 10,
+      "up": true,
+      "th": [
+        80,
+        60,
+        40,
+        25
+      ]
+    },
+    {
+      "dim": "iliski",
+      "name": "CSAT",
+      "w": 5,
+      "up": true,
+      "th": [
+        88,
+        82,
+        75,
+        65
+      ]
+    },
+    {
+      "dim": "iliski",
+      "name": "NPS",
+      "w": 5,
+      "up": true,
+      "th": [
+        40,
+        20,
+        0,
+        -20
+      ]
+    },
+    {
+      "dim": "iliski",
+      "name": "Şikâyet (6 ay)",
+      "w": 5,
+      "up": false,
+      "th": [
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "dim": "davranis",
+      "name": "İptal / no-show (%)",
+      "w": 6,
+      "up": false,
+      "th": [
+        3,
+        5,
+        10,
+        15
+      ]
+    },
+    {
+      "dim": "davranis",
+      "name": "Ödeme gecikmesi (gün)",
+      "w": 6,
+      "up": false,
+      "th": [
+        0,
+        5,
+        15,
+        30
+      ]
+    },
+    {
+      "dim": "davranis",
+      "name": "Dijital rezervasyon (%)",
+      "w": 4,
+      "up": true,
+      "th": [
+        90,
+        75,
+        50,
+        25
+      ]
+    },
+    {
+      "dim": "davranis",
+      "name": "Allotment kullanımı (%)",
+      "w": 4,
+      "up": true,
+      "th": [
+        90,
+        80,
+        70,
+        60
+      ]
+    },
+    {
+      "dim": "buyume",
+      "name": "3 ay hacim değişimi (%)",
+      "w": 10,
+      "up": true,
+      "th": [
+        30,
+        10,
+        0,
+        -10
+      ]
+    },
+    {
+      "dim": "buyume",
+      "name": "TK ürün sayısı",
+      "w": 5,
+      "up": true,
+      "th": [
+        3,
+        2.5,
+        2,
+        1.5
+      ]
+    },
+    {
+      "dim": "buyume",
+      "name": "TK istasyon ağı",
+      "w": 5,
+      "up": true,
+      "th": [
+        30,
+        10,
+        4,
+        2
+      ]
+    },
+    {
+      "dim": "ekip",
+      "name": "Ekip ilişki puanı (1–5)",
+      "w": 1,
+      "manual": true
+    }
+  ],
+  "attributes": {
+    "Medivia": {
+      "tavsiye": 5,
+      "degistirme": 5,
+      "pazarlik": 6,
+      "iletisim": 6,
+      "ozel": 2,
+      "soz": 6,
+      "dostluk": 5,
+      "deger": 5,
+      "hosgoru": 4,
+      "teknik": 5,
+      "buyume": 5
+    },
+    "Nord": {
+      "tavsiye": 2,
+      "degistirme": 1,
+      "pazarlik": 1,
+      "iletisim": 3,
+      "ozel": 4,
+      "soz": 3,
+      "dostluk": 2,
+      "deger": 2,
+      "hosgoru": 1,
+      "teknik": 4,
+      "buyume": 5
+    },
+    "Bella": {
+      "tavsiye": 6,
+      "degistirme": 3,
+      "pazarlik": 5,
+      "iletisim": 5,
+      "ozel": 3,
+      "soz": 6,
+      "dostluk": 4,
+      "deger": 6,
+      "hosgoru": 3,
+      "teknik": 5,
+      "buyume": 7
+    },
+    "Veloce": {
+      "tavsiye": 6,
+      "degistirme": 6,
+      "pazarlik": 3,
+      "iletisim": 5,
+      "ozel": 3,
+      "soz": 5,
+      "dostluk": 3,
+      "deger": 5,
+      "hosgoru": 2,
+      "teknik": 4,
+      "buyume": 7
+    },
+    "Lago": {
+      "tavsiye": 3,
+      "degistirme": 4,
+      "pazarlik": 4,
+      "iletisim": 3,
+      "ozel": 3,
+      "soz": 1,
+      "dostluk": 3,
+      "deger": 4,
+      "hosgoru": 4,
+      "teknik": 4,
+      "buyume": 3
+    },
+    "Rossi": {
+      "tavsiye": 7,
+      "degistirme": 7,
+      "pazarlik": 5,
+      "iletisim": 6,
+      "ozel": 3,
+      "soz": 7,
+      "dostluk": 7,
+      "deger": 6,
+      "hosgoru": 6,
+      "teknik": 2,
+      "buyume": 2
+    }
+  },
+  "attribute_items": [
+    {
+      "k": "tavsiye",
+      "bag": "kisi",
+      "g": "islem",
+      "n": "Tavsiye",
+      "t": "Bu müşteri sık sık olumlu konuşur ve şirketimizi aktif olarak tavsiye eder."
+    },
+    {
+      "k": "degistirme",
+      "g": "islem",
+      "n": "Rakibe gitmeme",
+      "t": "Bu müşteri rakiplerimizi nadiren kullanır."
+    },
+    {
+      "k": "pazarlik",
+      "g": "islem",
+      "n": "Fiyat pazarlığı",
+      "t": "Bu müşteri nadiren fiyat indirimi pazarlığı yapar."
+    },
+    {
+      "k": "iletisim",
+      "bag": "kisi",
+      "g": "iliski",
+      "n": "İletişim",
+      "t": "Bu müşteri bizimle her zaman açık iletişim kurar."
+    },
+    {
+      "k": "ozel",
+      "g": "islem",
+      "n": "Özel hizmet",
+      "t": "Bu müşteri nadiren özel hizmet ister (özel ekipman, taşıma şekli, teslim zamanı, özel kargo)."
+    },
+    {
+      "k": "soz",
+      "g": "iliski",
+      "n": "Söz tutma",
+      "t": "Bu müşteri sözlerini her zaman tutmuştur."
+    },
+    {
+      "k": "dostluk",
+      "bag": "kisi",
+      "g": "iliski",
+      "n": "Dostluk",
+      "t": "Bu müşteri bizimle dostluk geliştirmiştir."
+    },
+    {
+      "k": "deger",
+      "g": "iliski",
+      "n": "Ortak değer",
+      "t": "Bu müşteri sunduğumuz hizmetin değerini tam olarak algılar."
+    },
+    {
+      "k": "hosgoru",
+      "bag": "kisi",
+      "g": "iliski",
+      "n": "Hoşgörü",
+      "t": "Bu müşteri hizmet hatalarını anlayışla karşılayabilir."
+    },
+    {
+      "k": "teknik",
+      "g": "iliski",
+      "n": "Teknik öneri",
+      "t": "Bu müşteri sık sık yenilikçi hizmet iyileştirmeleri önerir."
+    },
+    {
+      "k": "buyume",
+      "g": "islem",
+      "n": "Büyüme potansiyeli",
+      "t": "Bu müşterinin satış büyüme potansiyeli yüksektir."
+    }
+  ],
+  "benefits": {
+    "Elite Plus": {
+      "cip": 1,
+      "s247": 1,
+      "zirve": 1,
+      "karne": 1,
+      "ziy": 4,
+      "rate": 0.01,
+      "base": "total",
+      "cap": 50000
+    },
+    "Elite": {
+      "cip": 0,
+      "s247": 0,
+      "zirve": 1,
+      "karne": 1,
+      "ziy": 4,
+      "rate": 0.02,
+      "base": "above",
+      "cap": 25000
+    },
+    "Classic Plus": {
+      "cip": 0,
+      "s247": 0,
+      "zirve": 1,
+      "karne": 1,
+      "ziy": 2,
+      "rate": 0.01,
+      "base": "above",
+      "cap": 15000
+    },
+    "Classic": {
+      "cip": 0,
+      "s247": 0,
+      "zirve": 0,
+      "karne": 1,
+      "ziy": 0,
+      "rate": 0,
+      "base": "-",
+      "cap": 0
+    }
+  },
+  "growth": {
+    "baz": {
+      "Medivia": 0.08,
+      "Nord": 0.05,
+      "Bella": 0.2,
+      "Veloce": 0.4,
+      "Lago": 0.02,
+      "Rossi": 0.03
+    },
+    "stres": {
+      "Medivia": 0.15,
+      "Nord": 0.36,
+      "Bella": 0.4,
+      "Veloce": 0.8,
+      "Lago": 0.05,
+      "Rossi": 0.1
+    }
+  },
+  "unit": {
+    "cip": 4000,
+    "s247": 12000,
+    "zirve": 3000,
+    "karne": 1500,
+    "dijital": 2000,
+    "ziyaret": 800,
+    "budget": 200000,
+    "margin": 0.25
+  }
+}

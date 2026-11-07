@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flyup3-bi"
+version = "0.1.0"
+description = "FlyUp3 Apache Superset BI ve veri yükleyicisi"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "apache-superset[fastmcp]==6.1.0",
+  "snowflake-sqlalchemy",
+  "duckdb",
+  "duckdb-engine",
+  "pandas",
+  "openpyxl",
+  "flask-caching>=2.1,<2.4",
+  "pulp>=3.3.2,<4",
+]
+
+[project.optional-dependencies]
+snowflake = ["snowflake-connector-python[pandas]"]
+
+[dependency-groups]
+dev = ["pytest", "ruff", "sqlglot"]
+
+[project.scripts]
+flyup3-load = "flyup3.loader:main"
+flyup3-superset = "flyup3.superset_setup:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/flyup3"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

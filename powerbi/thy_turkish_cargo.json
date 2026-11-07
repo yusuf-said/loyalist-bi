@@ -1,0 +1,39 @@
+{
+  "name": "THY Turkish Cargo · FlyUp3",
+  "dataColors": [
+    "#C90019",
+    "#34404F",
+    "#005BA6",
+    "#A67602",
+    "#79889A",
+    "#188A42",
+    "#FF8A92",
+    "#A9B3BE",
+    "#5FB6FF",
+    "#FACE63"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#313131",
+  "tableAccent": "#C90019",
+  "good": "#53C172",
+  "neutral": "#D6A42D",
+  "bad": "#FF3D32",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#313131"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "color": "#313131"
+    },
+    "title": {
+      "fontFace": "Segoe UI",
+      "color": "#313131"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "color": "#313131"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# --- Mevcut FlyUp3 dosyaları: kullanıcı isteğiyle git'e alınmıyor ---
+/.cache/
+/dashboard/
+/kanvas/
+/mip/
+/vaka/
+/FlyUp3_Cozum_Modeli.xlsx
+
+# --- Python / uv ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# --- Üretilen veri ve gizli bilgiler ---
+/out/
+*.duckdb
+*.duckdb.wal
+.env
+
+# --- macOS / Power BI yerel dosyaları ---
+.DS_Store
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# --- Depoya bilinçli olarak eklenen veri anlık görüntüsü (kaynak dosyalar git dışında) ---
+!/data/flyup3.duckdb
